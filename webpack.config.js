@@ -4,7 +4,7 @@ var path = require('path');
 module.exports = {
     entry: './src/main.ts',
     output: {
-        path: __dirname  + "/dist",
+        path: path.join(__dirname  ,  "dist"),
         filename: "jui-angular.js"
     },
     resolve: {

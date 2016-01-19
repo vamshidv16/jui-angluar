@@ -10,6 +10,11 @@
         "experimentalDecorators": true,
         "moduleResolution": "node"
     },
+    "files" : [
+        "src/components/button/button.ts",
+        "src/main.ts",
+        "src/vendor.ts"
+    ],
     "exclude": [
         "node_modules"
     ]
