@@ -9,10 +9,9 @@ import {JuiButton} from './components/button/button';
 export * from './components/button/button';
 
 @Component({
-    selector: 'app'
+    selector: '[jui-app]'
 })
 @View({
-    // 진입점입니다. 이 부분은 어떤식으로 구성할지 고민을 좀 해야겠네요.
     template: `
       <jui-button type="radio" class="group">
         <a class="btn small" value="true">On</a>
