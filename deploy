@@ -1,5 +1,5 @@
 #!/bin/sh      
-ssh userName@development-server-ip <<EOF        
+ssh vamshi@52.35.96.122 <<EOF        
  cd /your-project-path  
  git pull       
  npm install --production       
